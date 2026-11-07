@@ -1,0 +1,51 @@
+EmployeeID,EmployeeName,Age,Gender,Department,Designation,Location,ExperienceYears,Salary,PerformanceRating,JoiningDate,ProjectID,EmploymentType,TrainingHours,ProjectsCompleted,LeaveDays,OvertimeHours,Bonus,ManagerID,WorkMode
+COF1001,Aarav Sharma,32,Male,Engineering,Software Engineer,Pune,6,965000,5,2020-03-28,PRJ101,Contract,21,12,17,5,128000,MGR01,Hybrid
+COF1002,Diya Verma,38,Female,Data Analytics,BI Developer,Noida,16,2002000,3,2017-03-01,PRJ102,Permanent,30,12,2,28,100000,MGR02,Office
+COF1003,Vivaan Gupta,31,Male,AI & ML,ML Engineer,Bengaluru,6,1110000,5,2022-04-03,PRJ103,Permanent,79,0,2,37,165000,MGR03,Remote
+COF1004,Ananya Singh,39,Female,Quality Assurance,QA Engineer,Hyderabad,17,2136000,2,2011-11-21,PRJ104,Permanent,64,9,23,40,308000,MGR04,Hybrid
+COF1005,Aditya Mehta,35,Male,Cloud & DevOps,Cloud Engineer,Mumbai,13,1606000,2,2020-09-20,PRJ105,Permanent,84,6,15,19,61000,MGR05,Office
+COF1006,Isha Kapoor,24,Female,HR,HR Executive,Pune,2,512000,2,2025-03-14,PRJ106,Permanent,52,9,4,41,23000,MGR06,Remote
+COF1007,Kabir Joshi,28,Male,Finance,Finance Manager,Noida,1,637000,2,2026-03-24,PRJ107,Contract,17,10,9,10,105000,MGR07,Hybrid
+COF1008,Meera Nair,30,Female,Engineering,Senior Software Engineer,Bengaluru,8,1270000,4,2020-06-30,PRJ108,Permanent,82,6,3,5,65000,MGR01,Office
+COF1009,Rohan Rao,30,Male,Data Analytics,BI Developer,Hyderabad,0,363000,5,2026-04-26,PRJ101,Permanent,28,13,21,4,46000,MGR02,Remote
+COF1010,Sanya Mishra,35,Female,AI & ML,ML Engineer,Mumbai,13,1654000,5,2022-08-31,PRJ102,Permanent,42,2,5,8,191000,MGR03,Hybrid
+COF1011,Arjun Sharma,36,Male,Quality Assurance,QA Engineer,Pune,1,408000,5,2024-10-23,PRJ103,Permanent,40,7,12,50,14000,MGR04,Office
+COF1012,Priya Verma,25,Female,Cloud & DevOps,Cloud Engineer,Noida,3,812000,3,2024-08-16,PRJ104,Permanent,23,13,21,64,136000,MGR05,Remote
+COF1013,Karan Gupta,34,Male,HR,HR Executive,Bengaluru,12,1575000,2,2014-10-15,PRJ105,Contract,24,14,3,3,79000,MGR06,Hybrid
+COF1014,Neha Singh,29,Female,Finance,Finance Manager,Hyderabad,7,984000,3,2023-03-10,PRJ106,Permanent,60,7,8,63,63000,MGR07,Office
+COF1015,Rahul Mehta,38,Male,Engineering,Software Engineer,Mumbai,16,1830000,2,2025-10-26,PRJ107,Permanent,32,12,5,18,197000,MGR01,Remote
+COF1016,Pooja Kapoor,26,Female,Data Analytics,Data Analyst,Pune,4,760000,3,2023-05-28,PRJ108,Permanent,11,6,17,14,67000,MGR02,Hybrid
+COF1017,Nikhil Joshi,28,Male,AI & ML,Data Scientist,Noida,6,945000,3,2025-09-04,PRJ101,Permanent,6,4,10,53,54000,MGR03,Office
+COF1018,Tanya Nair,38,Female,Quality Assurance,Automation Tester,Bengaluru,16,2035000,4,2020-08-06,PRJ102,Permanent,42,13,20,60,286000,MGR04,Remote
+COF1019,Amit Rao,30,Male,Cloud & DevOps,DevOps Engineer,Hyderabad,8,1071000,2,2019-08-01,PRJ103,Contract,28,9,11,29,178000,MGR05,Hybrid
+COF1020,Kavya Mishra,30,Female,HR,HR Manager,Mumbai,8,1261000,2,2019-07-10,PRJ104,Permanent,31,7,11,12,185000,MGR06,Office
+COF1021,Varun Sharma,38,Male,Finance,Finance Analyst,Pune,16,1778000,2,2010-12-21,PRJ105,Permanent,22,6,23,10,244000,MGR07,Remote
+COF1022,Riya Verma,33,Female,Engineering,Tech Lead,Noida,11,1571000,5,2015-03-27,PRJ106,Permanent,29,12,15,32,257000,MGR01,Hybrid
+COF1023,Manav Gupta,34,Male,Data Analytics,Data Analyst,Bengaluru,8,1094000,5,2019-01-19,PRJ107,Permanent,52,13,16,28,74000,MGR02,Office
+COF1024,Simran Singh,26,Female,AI & ML,AI Engineer,Hyderabad,3,696000,4,2025-07-29,PRJ108,Permanent,11,9,21,59,31000,MGR03,Remote
+COF1025,Dev Mehta,37,Male,Quality Assurance,Automation Tester,Mumbai,15,1802000,5,2016-06-04,PRJ101,Contract,31,2,4,35,73000,MGR04,Hybrid
+COF1026,Aditi Kapoor,31,Female,Cloud & DevOps,DevOps Engineer,Pune,7,1051000,2,2025-02-24,PRJ102,Permanent,36,9,16,15,58000,MGR05,Office
+COF1027,Yash Joshi,33,Male,HR,HR Executive,Noida,11,1533000,5,2016-11-07,PRJ103,Permanent,40,3,23,12,250000,MGR06,Remote
+COF1028,Nisha Nair,30,Female,Finance,Finance Analyst,Bengaluru,4,881000,4,2023-08-09,PRJ104,Permanent,62,8,18,4,143000,MGR07,Hybrid
+COF1029,Harsh Rao,31,Male,Engineering,Senior Software Engineer,Hyderabad,4,865000,5,2023-06-28,PRJ105,Permanent,78,5,22,2,108000,MGR01,Office
+COF1030,Sneha Mishra,35,Female,Data Analytics,Data Analyst,Mumbai,13,1515000,2,2018-03-15,PRJ106,Permanent,49,5,9,17,154000,MGR02,Remote
+COF1031,Ishaan Sharma,38,Male,AI & ML,Data Scientist,Pune,16,1992000,2,2023-02-17,PRJ107,Contract,6,3,18,60,197000,MGR03,Hybrid
+COF1032,Tanvi Verma,31,Female,Quality Assurance,Automation Tester,Noida,4,728000,5,2024-02-20,PRJ108,Permanent,11,11,11,53,82000,MGR04,Office
+COF1033,Akash Gupta,37,Male,Cloud & DevOps,DevOps Engineer,Bengaluru,15,1894000,3,2025-01-26,PRJ101,Permanent,40,2,22,31,96000,MGR05,Remote
+COF1034,Shreya Singh,27,Female,HR,HR Manager,Hyderabad,4,685000,4,2023-05-01,PRJ102,Permanent,84,1,7,46,55000,MGR06,Hybrid
+COF1035,Ritvik Mehta,32,Male,Finance,Finance Manager,Mumbai,10,1429000,5,2023-04-02,PRJ103,Permanent,59,5,15,63,100000,MGR07,Office
+COF1036,Muskan Kapoor,39,Female,Engineering,Senior Software Engineer,Pune,17,2073000,4,2015-10-06,PRJ104,Permanent,50,11,11,7,328000,MGR01,Remote
+COF1037,Siddharth Joshi,34,Male,Data Analytics,BI Developer,Noida,12,1548000,3,2021-01-20,PRJ105,Contract,32,7,23,25,61000,MGR02,Hybrid
+COF1038,Avni Nair,36,Female,AI & ML,AI Engineer,Bengaluru,11,1398000,3,2015-07-13,PRJ106,Permanent,12,11,17,32,202000,MGR03,Office
+COF1039,Pranav Rao,30,Male,Quality Assurance,QA Engineer,Hyderabad,7,1109000,5,2024-07-01,PRJ107,Permanent,53,3,3,7,145000,MGR04,Remote
+COF1040,Ritika Mishra,32,Female,Cloud & DevOps,DevOps Engineer,Mumbai,10,1324000,4,2021-12-17,PRJ108,Permanent,83,4,3,10,55000,MGR05,Hybrid
+COF1041,Gaurav Sharma,36,Male,HR,HR Executive,Pune,10,1410000,2,2021-02-16,PRJ101,Permanent,39,0,19,33,66000,MGR06,Office
+COF1042,Palak Verma,36,Female,Finance,Finance Manager,Noida,14,1753000,5,2019-07-31,PRJ102,Permanent,47,4,10,20,128000,MGR07,Remote
+COF1043,Mohit Gupta,30,Male,Engineering,Software Engineer,Bengaluru,8,1046000,4,2025-02-12,PRJ103,Contract,52,14,3,11,136000,MGR01,Hybrid
+COF1044,Anika Singh,34,Female,Data Analytics,Data Analyst,Hyderabad,12,1671000,2,2016-12-19,PRJ104,Permanent,57,3,20,65,177000,MGR02,Office
+COF1045,Sahil Mehta,29,Male,AI & ML,AI Engineer,Mumbai,7,1103000,5,2025-03-13,PRJ105,Permanent,79,13,7,11,37000,MGR03,Remote
+COF1046,Kirti Kapoor,25,Female,Quality Assurance,QA Engineer,Pune,3,735000,3,2023-01-26,PRJ106,Permanent,81,10,12,38,24000,MGR04,Hybrid
+COF1047,Vivek Joshi,31,Male,Cloud & DevOps,DevOps Engineer,Noida,6,950000,2,2020-06-04,PRJ107,Permanent,61,8,9,25,97000,MGR05,Office
+COF1048,Mansi Nair,39,Female,HR,HR Executive,Bengaluru,17,1965000,2,2011-04-19,PRJ108,Permanent,19,6,20,0,325000,MGR06,Remote
+COF1049,Dhruv Rao,35,Male,Finance,Finance Manager,Hyderabad,13,1598000,4,2013-02-21,PRJ101,Contract,6,6,20,36,81000,MGR07,Hybrid
+COF1050,Sakshi Mishra,33,Female,Engineering,Senior Software Engineer,Mumbai,11,1323000,4,2025-02-09,PRJ102,Permanent,65,6,16,39,64000,MGR01,Office
