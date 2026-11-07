@@ -1,0 +1,15 @@
+employees=["Pranjali","Akash","Prince","Shiv","Sahil","Atharav","Hitesh","Shreyansh"]
+print(employees)
+for i in employees:
+    print(i)
+employees.append("Priya")
+print(employees)
+employees.insert(2,"Arya")
+print(employees)
+print(employees[1:8])
+print(employees[-1])
+print(employees[::-1])
+print(len(employees))
+print(employees.count("Pranjali"))
+print(employees.index("Hitesh"))
+print(employees[1:1])
