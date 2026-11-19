@@ -1,0 +1,26 @@
+2026-11-12 00:39:34,195| InventoryProductDB | INFO| Inventory value calculated successfully
+2026-11-12 00:39:49,571| InventoryProductDB | WARNING| Product with Id 3 not found
+2026-11-12 00:43:06,116| InventoryProductDB | INFO| Product with Id 1 added successfully
+2026-11-12 00:43:25,667| InventoryProductDB | INFO| Product with Id 2 added successfully
+2026-11-12 00:43:39,461| InventoryProductDB | INFO| Product with Id 3 added successfully
+2026-11-12 00:43:42,481| InventoryProductDB | INFO| Product with Id 4 added successfully
+2026-11-12 00:43:59,630| InventoryProductDB | INFO| Product with Id 5 added successfully
+2026-11-12 00:44:08,641| InventoryProductDB | ERROR| Unexpected error while fetching products
+Traceback (most recent call last):
+  File "C:\Users\Pranjali.Singh\AITraining\FastAPIAssignments\4-InventoryAndProductManagement\services\inventoryproduct_service.py", line 31, in get_all_products
+    query=(select(InventoryProduct).offset(skip),limit(limit))
+                                                 ~~~~~^^^^^^^
+TypeError: 'int' object is not callable
+2026-11-12 00:45:27,159| InventoryProductDB | INFO| Product with Id 2 retrieved successfully
+2026-11-12 00:46:10,563| InventoryProductDB | INFO| Product with Id 2 retrieved successfully
+2026-11-12 00:46:10,577| InventoryProductDB | INFO| Product with Id 2 updated successfully
+2026-11-12 00:46:21,095| InventoryProductDB | INFO| Product with Id 2 retrieved successfully
+2026-11-12 00:46:21,104| InventoryProductDB | INFO| Product with Id 2 deleted successfully
+2026-11-12 00:47:28,170| InventoryProductDB | INFO| Successfully retrieved 4 products
+2026-11-12 00:48:00,935| InventoryProductDB | INFO| Retrieved 2 products from category Electronics
+2026-11-12 00:48:13,715| InventoryProductDB | INFO| Retrieved 1 low-stock products
+2026-11-12 00:49:04,202| InventoryProductDB | INFO| Product with Id 5 retrieved successfully
+2026-11-12 00:49:04,213| InventoryProductDB | INFO| Stock increased for product 5 by 5
+2026-11-12 00:49:24,348| InventoryProductDB | INFO| Product with Id 5 retrieved successfully
+2026-11-12 00:49:24,359| InventoryProductDB | INFO| Stock decreased for product 5 by 3
+2026-11-12 00:49:31,494| InventoryProductDB | INFO| Inventory value calculated successfully
