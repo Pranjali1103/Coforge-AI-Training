@@ -1,0 +1,59 @@
+2026-11-10 02:39:19,239 | CricketPlayerDB | INFO | Player with Id 1 created Successfully
+2026-11-10 02:40:31,918 | CricketPlayerDB | INFO | Player with Id 2 created Successfully
+2026-11-10 02:41:00,544 | CricketPlayerDB | INFO | Player with Id 3 created Successfully
+2026-11-10 02:41:25,738 | CricketPlayerDB | INFO | Player with Id 4 created Successfully
+2026-11-10 02:43:55,684 | CricketPlayerDB | INFO | Successfully retrieved 2 players
+2026-11-10 02:46:15,510 | CricketPlayerDB | INFO | Successfully retrieved 4 players
+2026-11-10 02:49:56,259 | CricketPlayerDB | INFO | Successfully retrieved 4 players
+2026-11-10 02:50:07,222 | CricketPlayerDB | INFO | Player with id 2 retrieved successfully
+2026-11-10 02:52:40,130 | CricketPlayerDB | INFO | Player with id 2 retrieved successfully
+2026-11-10 02:52:40,145 | CricketPlayerDB | INFO | Player with Id 2 updated successfully
+2026-11-10 02:54:16,801 | CricketPlayerDB | INFO | Player with id 2 retrieved successfully
+2026-11-10 02:54:16,813 | CricketPlayerDB | INFO | Player with Id 2 updated successfully
+2026-11-10 02:55:12,731 | CricketPlayerDB | INFO | Player with id 4 retrieved successfully
+2026-11-10 02:55:12,741 | CricketPlayerDB | INFO | Player with id 4 deleted successfully
+2026-11-10 02:55:30,517 | CricketPlayerDB | INFO | Successfully retrieved 3 players
+2026-11-10 02:56:01,338 | CricketPlayerDB | INFO | Retrieved 2 players from the team India
+2026-11-10 02:59:05,724 | CricketPlayerDB | INFO | Successfully retrieved 3 players
+2026-11-10 02:59:30,659 | CricketPlayerDB | INFO | Player with id 2 retrieved successfully
+2026-11-10 02:59:30,671 | CricketPlayerDB | INFO | Player with Id 2 updated successfully
+2026-11-10 02:59:47,418 | CricketPlayerDB | INFO | Player with id 2 retrieved successfully
+2026-11-10 02:59:47,430 | CricketPlayerDB | INFO | Player with Id 2 updated successfully
+2026-11-10 02:59:48,407 | CricketPlayerDB | INFO | Player with id 2 retrieved successfully
+2026-11-10 02:59:48,410 | CricketPlayerDB | INFO | Player with Id 2 updated successfully
+2026-11-10 02:59:58,453 | CricketPlayerDB | INFO | Successfully retrieved 3 players
+2026-11-10 12:58:57,419 | CricketPlayerDB | INFO | Successfully retrieved 3 players
+2026-11-10 12:59:46,285 | CricketPlayerDB | INFO | Player with id 3 retrieved successfully
+2026-11-10 12:59:46,306 | CricketPlayerDB | INFO | Player with Id 3 updated successfully
+2026-11-10 13:00:12,817 | CricketPlayerDB | INFO | Retrieved 1 players from the team Australia
+2026-11-10 13:00:19,867 | CricketPlayerDB | WARNING | No players found in teamAustrali
+2026-11-10 14:22:05,857 | CricketPlayerDB | WARNING | No all-rounders with at least 10 wickets found
+2026-11-10 14:28:07,460 | CricketPlayerDB | WARNING | No all-rounders with at least 10 wickets found
+2026-11-10 14:28:07,461 | CricketPlayerDB | ERROR | Unexpected error while fetching all-rounders
+Traceback (most recent call last):
+  File "C:\Users\Pranjali.Singh\AITraining\FastAPIAssignments\2-CricketPlayerStatistics\services\cricketplayer_service.py", line 112, in get_all_rounders_with_wickets
+    raise HTTPException(status_code=404,detail="All-rounders with at least 10 wickets not found")
+fastapi.exceptions.HTTPException: 404: All-rounders with at least 10 wickets not found
+2026-11-10 14:28:47,321 | CricketPlayerDB | WARNING | No all-rounders with at least 10 wickets found
+2026-11-10 14:40:36,008 | CricketPlayerDB | INFO | Successfully retrieved top five run scorers
+2026-11-10 14:41:48,348 | CricketPlayerDB | INFO | Player with Id 5 created Successfully
+2026-11-10 14:43:51,688 | CricketPlayerDB | INFO | Player with Id 6 created Successfully
+2026-11-10 14:44:06,258 | CricketPlayerDB | INFO | Player with Id 7 created Successfully
+2026-11-10 14:44:30,554 | CricketPlayerDB | INFO | Player with Id 8 created Successfully
+2026-11-10 14:44:41,767 | CricketPlayerDB | INFO | Successfully retrieved 7 players
+2026-11-10 14:45:14,455 | CricketPlayerDB | INFO | Successfully retrieved top five run scorers
+2026-11-10 14:46:13,252 | CricketPlayerDB | INFO | Retrieved 2 all-rounders with at least 10 wickets
+2026-11-10 14:47:14,667 | CricketPlayerDB | INFO | Player with Id 9 created Successfully
+2026-11-10 14:47:40,877 | CricketPlayerDB | INFO | Successfully retrieved 8 players
+2026-11-10 14:47:55,281 | CricketPlayerDB | INFO | Retrieved 2 all-rounders with at least 10 wickets
+2026-11-10 15:21:23,921 | CricketPlayerDB | WARNING | No player with id 4 found
+2026-11-10 15:21:44,045 | CricketPlayerDB | INFO | Successfully retrieved 8 players
+2026-11-10 15:22:04,977 | CricketPlayerDB | INFO | Player with id 8 retrieved successfully
+2026-11-10 15:22:04,978 | CricketPlayerDB | INFO | Strike rate calculated successfully for player 8
+2026-11-10 15:23:49,828 | CricketPlayerDB | INFO | Player with id 8 retrieved successfully
+2026-11-10 15:23:49,828 | CricketPlayerDB | INFO | Strike rate calculated successfully for player 8
+2026-11-10 15:56:12,847 | CricketPlayerDB | INFO | Team statistics calculated successfully
+2026-11-10 15:56:31,772 | CricketPlayerDB | INFO | Team statistics calculated successfully
+2026-11-10 16:17:50,720 | CricketPlayerDB | INFO | Player with Id 10 created successfully
+2026-11-10 16:18:07,282 | CricketPlayerDB | INFO | Player with id 10 retrieved successfully
+2026-11-10 16:18:07,282 | CricketPlayerDB | INFO | Strike rate calculated successfully for player 10
