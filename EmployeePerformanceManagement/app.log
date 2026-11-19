@@ -1,0 +1,30 @@
+2026-11-09 15:37:54,386 | EmployeePerformanceDB | INFO | Employee with Id 1 created successfully
+2026-11-09 15:37:57,587 | EmployeePerformanceDB | INFO | Employee with Id 2 created successfully
+2026-11-09 16:10:51,568 | EmployeePerformanceDB | INFO | Retrieved 1 employees successfully
+2026-11-09 16:11:28,177 | EmployeePerformanceDB | INFO | Retrieved 1 employees successfully
+2026-11-09 16:16:19,937 | EmployeePerformanceDB | INFO | Get All employees
+2026-11-09 16:16:19,943 | EmployeePerformanceDB | INFO | Retrieved 2 employees successfully
+2026-11-09 16:24:16,609 | EmployeePerformanceDB | INFO | Fetching employees with skip:0 and limit:10
+2026-11-09 16:24:16,610 | EmployeePerformanceDB | ERROR | Unexpected error occured while fetching employees
+Traceback (most recent call last):
+  File "C:\Users\Pranjali.Singh\AITraining\FastAPIAssignments\1-EmployeePerformanceManagement\services\employeeperformance_service.py", line 30, in get_all_employees
+    query=select(EmployeePerformane).offset(skip).limit(limit)
+                 ^^^^^^^^^^^^^^^^^^
+NameError: name 'EmployeePerformane' is not defined. Did you mean: 'EmployeePerformance'?
+2026-11-09 16:25:45,379 | EmployeePerformanceDB | INFO | Fetching employees with skip:0 and limit:10
+2026-11-09 16:25:45,383 | EmployeePerformanceDB | INFO | Retrieved 2 employees successfully
+2026-11-09 16:31:02,423 | EmployeePerformanceDB | INFO | Employee with Id 3 created successfully
+2026-11-09 16:31:36,902 | EmployeePerformanceDB | INFO | Fetching employees with skip:0 and limit:10
+2026-11-09 16:31:36,905 | EmployeePerformanceDB | INFO | Retrieved 3 employees successfully
+2026-11-09 20:18:30,397 | EmployeePerformanceDB | INFO | 3 Employees classified successfully
+2026-11-09 20:18:30,398 | EmployeePerformanceDB | INFO | 3 Employees classified successfully
+2026-11-09 20:18:30,399 | EmployeePerformanceDB | INFO | 3 Employees classified successfully
+2026-11-09 20:21:48,358 | EmployeePerformanceDB | INFO | 3 Employees classified successfully
+2026-11-09 20:21:48,359 | EmployeePerformanceDB | INFO | 3 Employees classified successfully
+2026-11-09 20:21:48,359 | EmployeePerformanceDB | INFO | 3 Employees classified successfully
+2026-11-09 20:21:59,631 | EmployeePerformanceDB | INFO | Successfully retrieved five highest-rated employees.
+2026-11-09 20:22:21,806 | EmployeePerformanceDB | INFO | Average performance rating by department calculated successfully
+2026-11-09 20:23:04,127 | EmployeePerformanceDB | INFO | Employee with Id 3 retrieved successfully
+2026-11-09 20:23:14,556 | EmployeePerformanceDB | INFO | Fetching employees with skip:0 and limit:10
+2026-11-09 20:23:14,560 | EmployeePerformanceDB | INFO | Retrieved 3 employees successfully
+2026-11-09 20:37:21,590 | EmployeePerformanceDB | INFO | Average performance rating by department calculated successfully
