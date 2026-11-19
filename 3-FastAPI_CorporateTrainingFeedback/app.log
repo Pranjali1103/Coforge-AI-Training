@@ -1,0 +1,68 @@
+2026-11-10 18:31:16,239| TrainingFeedbackDB | ERROR| Unexpected error while fetching feedback records
+Traceback (most recent call last):
+  File "C:\Users\Pranjali.Singh\AITraining\FastAPIAssignments\3-CorporateTrainingFeedback\services\trainingfeedback_service.py", line 38, in get_all_feedbacks
+    query=select(TrainingFeedback).offset(skip).limit(limit)
+          ~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pranjali.Singh\AppData\Local\Programs\Python\Python315\Lib\site-packages\sqlalchemy\sql\_selectable_constructors.py", line 617, in select
+    return Select(*entities)
+  File "C:\Users\Pranjali.Singh\AppData\Local\Programs\Python\Python315\Lib\site-packages\sqlalchemy\sql\selectable.py", line 5646, in __init__
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole, ent, apply_propagate_attrs=self
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Pranjali.Singh\AppData\Local\Programs\Python\Python315\Lib\site-packages\sqlalchemy\sql\coercions.py", line 405, in expect
+    resolved = impl._literal_coercion(
+        element, argname=argname, **kw
+    )
+  File "C:\Users\Pranjali.Singh\AppData\Local\Programs\Python\Python315\Lib\site-packages\sqlalchemy\sql\coercions.py", line 644, in _literal_coercion
+    self._raise_for_expected(element, argname)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pranjali.Singh\AppData\Local\Programs\Python\Python315\Lib\site-packages\sqlalchemy\sql\coercions.py", line 1150, in _raise_for_expected
+    return super()._raise_for_expected(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element, argname=argname, resolved=resolved, advice=advice, **kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Pranjali.Singh\AppData\Local\Programs\Python\Python315\Lib\site-packages\sqlalchemy\sql\coercions.py", line 705, in _raise_for_expected
+    super()._raise_for_expected(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        element,
+        ^^^^^^^^
+    ...<5 lines>...
+        **kw,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\Pranjali.Singh\AppData\Local\Programs\Python\Python315\Lib\site-packages\sqlalchemy\sql\coercions.py", line 528, in _raise_for_expected
+    raise exc.ArgumentError(msg, code=code) from err
+sqlalchemy.exc.ArgumentError: Column expression, FROM clause, or other columns clause element expected, got <class 'models.trainingfeedback_model.TrainingFeedback'>.
+2026-11-10 18:34:06,373| TrainingFeedbackDB | INFO| Successfully retrieved 0 feedback records
+2026-11-10 18:36:14,596| TrainingFeedbackDB | INFO| Feedback with Id 1 submitted successfully
+2026-11-10 18:36:32,894| TrainingFeedbackDB | INFO| Feedback with Id 2 submitted successfully
+2026-11-10 18:37:03,168| TrainingFeedbackDB | INFO| Feedback with Id 3 submitted successfully
+2026-11-10 18:37:10,473| TrainingFeedbackDB | INFO| Successfully retrieved 3 feedback records
+2026-11-11 00:54:14,451| TrainingFeedbackDB | INFO| Successfully retrieved 3 feedback records
+2026-11-11 00:54:35,537| TrainingFeedbackDB | INFO| Feedback with Id 2 retrieved successfully
+2026-11-11 00:55:35,352| TrainingFeedbackDB | INFO| Feedback with Id 1 retrieved successfully
+2026-11-11 00:55:35,363| TrainingFeedbackDB | INFO| Feedback with Id 1 updated successfully
+2026-11-11 00:56:03,866| TrainingFeedbackDB | INFO| Successfully retrieved 3 feedback records
+2026-11-11 00:58:43,071| TrainingFeedbackDB | INFO| Feedback with Id 2 retrieved successfully
+2026-11-11 04:08:46,427| TrainingFeedbackDB | INFO| Successfully retrieved 3 feedback records
+2026-11-11 04:09:02,895| TrainingFeedbackDB | INFO| Retrieved 2 feedback records for course FastAPI
+2026-11-11 04:09:02,896| TrainingFeedbackDB | INFO| Recommendation percentage calculated for course FastAPI
+2026-11-11 04:09:14,956| TrainingFeedbackDB | WARNING| No feedback found for course FastAPIk
+2026-11-11 04:09:25,563| TrainingFeedbackDB | WARNING| No low-rated sessions found
+2026-11-11 04:09:42,026| TrainingFeedbackDB | INFO| Average trainer rating calculated for 2 trainers
+2026-11-11 04:10:02,942| TrainingFeedbackDB | INFO| Retrieved 1 feedback records for course SQL
+2026-11-11 04:10:12,851| TrainingFeedbackDB | INFO| Retrieved 2 feedback records for course FastAPI
+2026-11-11 04:10:35,260| TrainingFeedbackDB | INFO| Retrieved 1 feedback records for trainer Pooja Kapoor
+2026-11-11 04:10:40,627| TrainingFeedbackDB | WARNING| No feedback found for trainer Pooja Kapoore
+2026-11-11 04:10:52,294| TrainingFeedbackDB | INFO| Feedback with Id 1 retrieved successfully
+2026-11-11 04:10:52,315| TrainingFeedbackDB | INFO| Feedback with Id 1 deleted successfully
+2026-11-11 04:10:59,618| TrainingFeedbackDB | INFO| Successfully retrieved 2 feedback records
+2026-11-11 04:11:40,214| TrainingFeedbackDB | INFO| Feedback with Id 3 retrieved successfully
+2026-11-11 04:11:40,236| TrainingFeedbackDB | INFO| Feedback with Id 3 updated successfully
+2026-11-11 04:11:56,369| TrainingFeedbackDB | INFO| Retrieved 1 low-rated sessions
