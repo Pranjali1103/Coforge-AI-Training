@@ -619,4 +619,8 @@ sns.countplot(
 plt.title("Customer Ratings by Sales Channel")
 plt.show()
 
+<<<<<<< HEAD
 print("Business Insight: Customer satisfaction patterns can be compared across channels.")
+=======
+print("Business Insight: Customer satisfaction patterns can be compared across channels.")
+>>>>>>> 4815cfea9516beac7269297805b69865a2a3d05b

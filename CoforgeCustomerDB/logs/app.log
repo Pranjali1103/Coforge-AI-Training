@@ -8,3 +8,5 @@
 2026-11-06 14:44:21,117 | CoforgeCustomerAPI | INFO| Successfully retrieved %s customers 4
 2026-11-06 14:54:18,898 | CoforgeCustomerAPI | INFO| GetALLCUSTOMERS API called
 2026-11-06 14:54:18,903 | CoforgeCustomerAPI | INFO| Successfully retrieved %s customers 3
+2026-11-08 15:44:48,810 | CoforgeCustomerAPI | INFO| GetALLCUSTOMERS API called
+2026-11-08 15:44:48,821 | CoforgeCustomerAPI | INFO| Successfully retrieved %s customers 3

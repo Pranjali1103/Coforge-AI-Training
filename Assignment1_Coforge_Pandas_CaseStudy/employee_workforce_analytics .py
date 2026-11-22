@@ -265,6 +265,248 @@ rgt = pd.merge(
     on="ProjectID",
     how="right"
 )
+<<<<<<< HEAD
+
+otr = pd.merge(
+    emp_df,
+    prj_df,
+    on="ProjectID",
+    how="outer"
+)
+
+print(len(inn))
+print(len(lft))
+print(len(rgt))
+print(len(otr))
+
+print(
+    mrg[
+        mrg["ProjectBudgetINR"] > 10000000
+    ][[
+        "EmployeeName",
+        "ProjectName",
+        "ProjectBudgetINR"
+    ]]
+)
+
+emp_df["SalRank"] = (
+    emp_df.groupby("Department")
+    ["Salary"]
+    .rank(ascending=False)
+)
+
+print(
+    emp_df[
+        ["EmployeeName",
+         "Department",
+         "Salary",
+         "SalRank"]
+    ]
+)
+
+top3 = (
+    emp_df.sort_values(
+        ["Department","Salary"],
+        ascending=[True,False]
+    )
+    .groupby("Department")
+    .head(3)
+)
+
+print(
+    top3[
+        ["EmployeeName",
+         "Department",
+         "Salary"]
+    ]
+)
+
+emp_df["SalDiff"] = (
+    emp_df["Salary"]
+    -
+    emp_df.groupby("Department")
+    ["Salary"]
+    .transform("mean")
+)
+
+print(
+    emp_df[
+        ["EmployeeName",
+         "Department",
+         "SalDiff"]
+    ]
+)
+
+pct = emp_df["Salary"].quantile(
+    [0.25,0.50,0.75,0.90]
+)
+
+print(pct)
+
+q1 = emp_df["Salary"].quantile(0.25)
+q3 = emp_df["Salary"].quantile(0.75)
+
+iqr = q3 - q1
+
+low = q1 - (1.5 * iqr)
+up = q3 + (1.5 * iqr)
+
+out = emp_df[
+    (emp_df["Salary"] < low)
+    |
+    (emp_df["Salary"] > up)
+]
+
+print(out)
+
+emp_df["npr"] = (
+    emp_df["PerformanceRating"]
+    -
+    emp_df["PerformanceRating"].min()
+) / (
+    emp_df["PerformanceRating"].max()
+    -
+    emp_df["PerformanceRating"].min()
+)
+
+emp_df["nth"] = (
+    emp_df["TrainingHours"]
+    -
+    emp_df["TrainingHours"].min()
+) / (
+    emp_df["TrainingHours"].max()
+    -
+    emp_df["TrainingHours"].min()
+)
+
+emp_df["npc"] = (
+    emp_df["ProjectsCompleted"]
+    -
+    emp_df["ProjectsCompleted"].min()
+) / (
+    emp_df["ProjectsCompleted"].max()
+    -
+    emp_df["ProjectsCompleted"].min()
+)
+
+emp_df["WScore"] = (
+      0.5 * emp_df["npr"]
+    + 0.2 * emp_df["nth"]
+    + 0.3 * emp_df["npc"]
+)
+
+print(
+    emp_df[
+        ["EmployeeName","WScore"]
+    ]
+)
+
+mi = emp_df.set_index(
+    ["Department","Location"]
+)
+
+print(mi.head())
+
+print(mi.loc["IT"])
+
+emp_df["Year"] = (
+    emp_df["JoiningDate"].dt.year
+)
+
+emp_df["Quarter"] = (
+    emp_df["JoiningDate"].dt.quarter
+)
+
+print(
+    emp_df.groupby("Year")
+    ["EmployeeID"]
+    .count()
+)
+
+print(
+    emp_df.groupby(
+        ["Year","Quarter"]
+    )
+    ["EmployeeID"]
+    .count()
+)
+
+emp_df = emp_df.sort_values(
+    ["Department","Salary"]
+)
+
+emp_df["CumSal"] = (
+    emp_df.groupby("Department")
+    ["Salary"]
+    .cumsum()
+)
+
+print(
+    emp_df[
+        ["Department",
+         "Salary",
+         "CumSal"]
+    ]
+)
+
+def promo(r):
+    if (
+        r["PerformanceRating"] >= 4 and
+        r["ExperienceYears"] >= 3 and
+        r["ProjectsCompleted"] >= 5
+    ):
+        return "Eligible"
+    return "Not Eligible"
+
+emp_df["Promotion"] = emp_df.apply(
+    promo,
+    axis=1
+)
+
+print(
+    emp_df[
+        ["EmployeeName",
+         "Promotion"]
+    ]
+)
+
+scr = (
+    emp_df.groupby("Department")
+    .agg(
+        EmpCnt=("EmployeeID","count"),
+        AvgSal=("Salary","mean"),
+        AvgPerf=("PerformanceRating","mean"),
+        AvgTrain=("TrainingHours","mean"),
+        TotProj=("ProjectsCompleted","sum")
+    )
+    .sort_values(
+        by="AvgPerf",
+        ascending=False
+    )
+)
+
+print(scr)
+
+emp_clean.to_csv(
+    "cleaned_employees.csv",
+    index=False
+)
+
+mrg.to_csv(
+    "project_enriched_data.csv",
+    index=False
+)
+
+scr.to_csv(
+    "department_scorecard.csv"
+)
+
+top3.to_csv(
+    "top_performers.csv",
+    index=False
+)
+=======
+>>>>>>> 4815cfea9516beac7269297805b69865a2a3d05b
 
 otr = pd.merge(
     emp_df,

@@ -8,7 +8,6 @@ from models.customer_model import Customer
 from sqlalchemy.orm import Session
 from models.customer_model import Customer
 
-
 def add_customer(db:Session,data):
     customer=Customer(**data.model_dump())
     db.add(customer)

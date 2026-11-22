@@ -1,0 +1,12 @@
+from pathlib import Path
+import sqlite3
+import pandas as pd
+
+# Project Folder Locations
+
+BASE_DIR=Path(__file__).resolve().parent
+print(f"Base directory:{BASE_DIR}")
+
+
+
+
